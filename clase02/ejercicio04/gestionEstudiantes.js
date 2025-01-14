@@ -13,21 +13,24 @@
 // actualizado en formato JSON.
 const { estudiantes } = require('./estudiantes');
 
-for(let i = 0; i < estudiantes.length;i++){
-    console.log(estudiantes[i].nombre)
+estudiantes.forEach(estudiante => {
+    console.log(estudiante.nombre);
+});
+
+//////////////Arreglar funcion
+function calcularPromedio(estudiante, nombre) {
+    const sumaNotas = estudiante.notas.reduce((suma, nota) => suma + nota, 0);
+    return sumaNotas / estudiante.notas.length;
 };
+// console.log(calcularPromedio(estudiantes,))
 
-let suma = 0;
-let estudiante = estudiantes.notas;
-console.log(estudiante)
+const nuevoEstudiante = { 
+    nombre: "Lucia", 
+    edad: 23, 
+    curso: "Data Science", 
+    notas: [8, 9, 7, 10] 
+};
+estudiantes.push(nuevoEstudiante);
 
-function calcularPromedio (estudiante){
-    //return notas
-    // for(let i = 0; i < notas.length; i++){
-    //     suma += notas[i]
-    // }
-    // let promedio = suma / notas.length;
-    // console.log(promedio)
-}
-
-console.log(calcularPromedio(estudiantes))
+const estudianteJson = JSON.stringify(estudiantes, null, 2); 
+console.log(estudianteJson);
