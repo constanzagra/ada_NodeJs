@@ -5,12 +5,12 @@
 // • Usa el método split() para dividir el nombre. 
 // • Usa un bucle for y métodos de string. 
 let nombre = "constanza guillermina riveros ayala";
-
+let nombredividido = [];
 function devuelveIniciales (nombre){
-    nombre = nombre.split(" ");
+    nombredividido = nombre.split(" ");
     let iniciales = "";
-    for(let i = 0; i < nombre.length; i++){
-        iniciales += nombre[i][0]
+    for(let i = 0; i < nombredividido.length; i++){
+        iniciales += nombredividido[i][0]
     }
     iniciales = iniciales.toUpperCase();
     return iniciales
