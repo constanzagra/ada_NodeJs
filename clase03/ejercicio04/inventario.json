@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "producto": "remeras",
+    "unidades": 9
+  },
+  {
+    "id": 2,
+    "producto": "vestidos",
+    "unidades": 6
+  },
+  {
+    "id": 3,
+    "producto": "short",
+    "unidades": 6
+  },
+  {
+    "id": 4,
+    "producto": "tote bags",
+    "unidades": 18
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "descripcionTarea": "Terminar ejercicios clase 3",
+    "completada": false
+  },
+  {
+    "id": 2,
+    "descripcionTarea": "Practicar NodeJs",
+    "completada": false
+  },
+  {
+    "id": 3,
+    "descripcionTarea": "Sacar a pasear a Anibal",
+    "completada": false
+  }
+]

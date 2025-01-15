@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nombre": "Friends",
+    "Temporadas": 10
+  },
+  {
+    "id": 2,
+    "nombre": "Orange is the new black",
+    "Temporadas": 5
+  },
+  {
+    "id": 3,
+    "nombre": "The office",
+    "Temporadas": 6,
+    "temporadas": 9
+  }
+]

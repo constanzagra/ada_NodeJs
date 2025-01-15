@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Constanza",
+    "telefono": 1122334455,
+    "email": "constanza@gmail.com"
+  },
+  {
+    "id": 2,
+    "nombre": "Sofia",
+    "telefono": 6677889900,
+    "email": "sofia@gmail.com"
+  },
+  {
+    "id": 4,
+    "nombre": "Amparo",
+    "telefono": 1198765432,
+    "email": "amparo@gmail.com"
+  }
+]
