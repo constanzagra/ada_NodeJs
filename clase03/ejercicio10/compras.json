@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "item": "sillas",
+    "precio": 3999
+  },
+  {
+    "id": 2,
+    "item": "sillòn",
+    "precio": 6050
+  },
+  {
+    "id": 3,
+    "item": "mesa",
+    "precio": 2899
+  },
+  {
+    "id": 4,
+    "item": "biblioteca",
+    "precio": 720
+  }
+]

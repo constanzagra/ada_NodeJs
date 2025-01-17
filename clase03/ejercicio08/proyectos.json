@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "proyecto": "Aplicación finanzas",
+    "estado": "en progreso"
+  },
+  {
+    "id": 2,
+    "proyecto": "Estudiar Java con springboot",
+    "estado": "pendiente"
+  }
+]

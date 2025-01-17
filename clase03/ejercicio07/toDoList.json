@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "toDo": "Terminar los ejercicios",
+    "estado": true
+  },
+  {
+    "id": 2,
+    "toDo": "Hacer CV",
+    "estado": false
+  }
+]
